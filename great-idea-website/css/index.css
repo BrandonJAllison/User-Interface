@@ -48,6 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -64,3 +65,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+.container{
+    
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;	 
+}
+
+h3{
+    margin: 10px 0;
+}
+
+nav a{
+    
+	margin-right: 25px;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+header nav{
+    
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-top: 5px;
+    
+}
+
+header img{
+    
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
+
+    
+    }
+button{
+    
+    background: white;
+    border: 1px solid black;
+    padding: 5px 30px;
+
+    
+}
+ 
+
+.header-lower{
+	
+	border-bottom: 1.5px solid black;
+	width: 100%;
+	padding: 20px;
+}
+
+.title {
+    font-size: 60px;
+	display: inline-block;
+	width: 45%;
+	
+    text-align: center;
+    margin-top: 30px;
+}
+
+.big-picture{
+	display: inline-block;
+	width: 40%;
+    margin-left: 100px;
+}
+
+.middle-img {
+    
+    width: auto;
+}
+.main-content  {
+  margin: 20px 1%;
+  width: 45%;
+  display: inline-block;
+  margin: 20px 1%;
+}
+
+
+
+
+
+.footer {
+    padding: 10px;
+    border-top: 1.5px solid black;
+    margin-top: 30px;
+}
+address{
+    margin-bottom: 20px;
+}
+.footer .phone{
+    
+    margin-bottom: 20px;
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
