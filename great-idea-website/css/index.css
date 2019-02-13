@@ -75,7 +75,7 @@ html {
   }
 .container{
     
-	width: 800px;
+	width: 880px;
 	margin: 0 auto;
 	margin-top: 20px;	 
 }
@@ -147,15 +147,24 @@ button{
     width: auto;
 }
 
-
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
 
 .main-content .upper .text-content  {
-  width: 400px;
-  display: inline-block;
-  margin-right: 34px;;
+    display: inline-block;
+    width: 45%;
+    margin: 20px; ;
+    
+}
+.upper :first-child{
+    
+    margin-left: 0;
 }
 .main-content .lower .text-content{
-  margin: 20px 1%;
+  margin: 20px ;
   width: 30%;
   display: inline-block;
   margin: 20px 1%;
