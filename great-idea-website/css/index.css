@@ -121,7 +121,7 @@ button{
 
 .header-lower{
 	
-	border-bottom: 1.5px solid black;
+
 	width: 100%;
 	padding: 20px;
 }
@@ -141,13 +141,22 @@ button{
     margin-left: 100px;
 }
 
+
 .middle-img {
     
     width: auto;
 }
-.main-content  {
+
+
+
+.main-content .upper .text-content  {
+  width: 400px;
+  display: inline-block;
+  margin-right: 34px;;
+}
+.main-content .lower .text-content{
   margin: 20px 1%;
-  width: 45%;
+  width: 30%;
   display: inline-block;
   margin: 20px 1%;
 }
